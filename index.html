@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Online Exam</title>
+
+    <style>
+      body {
+        background-color: #fff5e6;
+        color: #333333;
+      }
+
+      h1 {
+        background-color: #ff9933;
+        color: white;
+      }
+
+      h2 {
+        color: #cc6600;
+      }
+
+      table {
+        background-color: white;
+      }
+
+      th {
+        background-color: #ff9933;
+        color: white;
+      }
+
+      form {
+        background-color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Online Exam System</h1>
+    <p>Please review the exam information and submit your answers.</p>
+
+    <h2>Student Information</h2>
+    <img src="./image.png" width="120" alt="Student photo" />
+    <p><b>Name:</b> Dilshod Karimov</p>
+    <p><b>Subject:</b> HTML Basics</p>
+
+    <h2>Exam Schedule</h2>
+    <table border="1">
+      <tr>
+        <th>Section</th>
+        <th>Questions</th>
+        <th>Time</th>
+      </tr>
+      <tr>
+        <td>Multiple Choice</td>
+        <td>10</td>
+        <td>20 min</td>
+      </tr>
+      <tr>
+        <td>True / False</td>
+        <td>5</td>
+        <td>10 min</td>
+      </tr>
+      <tr>
+        <td>Written</td>
+        <td>2</td>
+        <td>30 min</td>
+      </tr>
+    </table>
+
+    <h2>Answer Form</h2>
+    <form>
+      <p>1. HTML stands for?</p>
+      <label>
+        <input type="radio" name="q1" /> Hyper Text Markup Language<br />
+      </label>
+      <label>
+        <input type="radio" name="q1" /> Cascading Style Sheets<br /><br />
+      </label>
+
+      <p>2. Choose HTML tags you know:</p>
+      <label> <input type="checkbox" /> &lt;p&gt;<br /> </label>
+      <label> <input type="checkbox" /> &lt;table&gt;<br /> </label>
+      <label> <input type="checkbox" /> &lt;img&gt;<br /><br /> </label>
+      <p>3. Your level:</p>
+      <select>
+        <option>Beginner</option>
+        <option>Intermediate</option>
+        <option>Advanced</option></select
+      ><br /><br />
+
+      <p>4. Short Answer:</p>
+      <textarea rows="4"></textarea><br /><br />
+
+      <button type="submit">Submit Exam</button>
+    </form>
+  </body>
+</html>
